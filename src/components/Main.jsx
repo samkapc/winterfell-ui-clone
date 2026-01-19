@@ -272,7 +272,7 @@ const Main = () => {
       <section className="h-screen w-full">
         <div className="flex flex-col gap-4 text-center justify-center h-full">
           <div className="text-6xl text-[#D9D9D9] font-semibold flex flex-col gap-4 pb-24">
-            <p>GSAP Seekhne jaa rha 🎉</p>
+            <p>GSAP seekhne jaa rha sir 🎉</p>
           </div>
         </div>
       </section>
