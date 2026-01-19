@@ -1,0 +1,38 @@
+@font-face {
+  font-family: Doto;
+  font-style: normal;
+  font-display: swap;
+  src: url("./assets/fonts/Doto-Black-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Nocturn";
+  src: url("./assets/fonts/Nocturn-regular.woff2") format("woff2");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nocturn";
+  src: url("./assets/fonts/Nocturn-semibold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nocturn";
+  src: url("./assets/fonts/Nocturn-bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #6C44FC;
+  --color-black: #151617;
+  --font-doto: "Doto", sans-serif;
+  --font-sans: "Nocturn", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
