@@ -135,7 +135,7 @@ const Main = () => {
           </div>
         </div>
 
-        <div className="flex gap-4 items-center mt-8">
+        <div className="flex gap-4 items-center mt-8 justify-center">
           <div className="flex items-center gap-2 text-xs bg-[#161717] border border-[#1E1E1E] rounded-sm text-[#707070] py-1 px-2 font-mono">
             <svg
               xmlns="http://www.w3.org/2000/svg"
